@@ -2,10 +2,11 @@
 using namespace std;
 int main()
 {
-	double x = 95000;
-	double y = x * 0.04;
-	double z = x * 0.02;
-	double t = y + z;
-	cout << "Sales = " << x << endl << "State tax = " << y << endl << "County tax = " << z << endl << "Total tax = " << t;
+	double sales = 95000;
+	double stateTax = sales * 0.04;
+	double countyTax = sales * 0.02;
+	double totalTax = stateTax + countyTax;
+	cout << "Sales = $" << sales << endl << "State tax = $" << stateTax << endl << "County tax = $" << countyTax << endl << "Total tax = $" << totalTax;
 	return 0;
 }
+
