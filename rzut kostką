@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+
+using namespace std;
+int main()
+{
+	const short minValue = 1;
+	const short maxValue = 6;
+		
+	srand(time(0));
+	short kostka1 = (rand() % (maxValue - minValue + 1)) + minValue;
+	short kostka2 = (rand() % (maxValue - minValue + 1)) + minValue;
+
+	cout << kostka1 << ", " << kostka2;
+	
+	return 0;
+}
