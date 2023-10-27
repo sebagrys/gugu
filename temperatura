@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	cout << "Fahrenheit: ";
+	double fahrenheit;
+	cin >> fahrenheit;
+	double celsjusz = (fahrenheit - 32) / 1.8;
+	cout << celsjusz;
+	
+	return 0;
+}
