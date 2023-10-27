@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	double x = 95000;
+	double y = x * 0.04;
+	double z = x * 0.02;
+	double t = y + z;
+	cout << "Sales = " << x << endl << "State tax = " << y << endl << "County tax = " << z << endl << "Total tax = " << t;
+	return 0;
+}
