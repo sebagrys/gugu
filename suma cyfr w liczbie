@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "Podaj liczbe: ";
+    int x;
+    cin >> x;
+    int wynik = 0;
+
+    while (x != 0)
+    {
+        wynik += x % 10;
+        x = x / 10;
+    }
+    cout << wynik;
+    return 0;
+
+}
